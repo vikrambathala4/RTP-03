@@ -2,11 +2,11 @@
 18.212.163.10
 [master:vars]
 ansible_user=ec2-user
-ansible_ssh_private_key_file=/opt/rtp-03.pem
+ansible_ssh_private_key_file=/opt/Git_key.pem
 
 [slave]
 44.202.85.133
 [slave:vars]
 ansible_user=ec2-user
-ansible_ssh_private_key_file=/opt/rtp-03.pem
+ansible_ssh_private_key_file=/opt/Git_key.pem
 
