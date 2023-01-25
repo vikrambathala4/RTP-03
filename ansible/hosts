@@ -1,11 +1,11 @@
 [master]
-10.1.2.142
+18.212.163.10
 [master:vars]
 ansible_user=ec2-user
 ansible_ssh_private_key_file=/opt/rtp-03.pem
 
 [slave]
-10.1.2.127
+44.202.85.133
 [slave:vars]
 ansible_user=ec2-user
 ansible_ssh_private_key_file=/opt/rtp-03.pem
